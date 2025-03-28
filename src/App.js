@@ -1,3 +1,4 @@
+// 최상위 컴포넌트
 import React, { useState } from "react";
 
 const App = () => {
