@@ -1,0 +1,6 @@
+@import url(reset.css);
+* {
+  font-size: 10px;
+  font-family: "NotoSansKR", "JosefinSlab", sans-serif;
+  box-sizing: border-box;
+}
