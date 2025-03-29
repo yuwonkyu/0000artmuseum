@@ -1,6 +1,6 @@
 /* 글로벌 스타일 (전체 앱에 적용되는 스타일) */
 
-@import url(reset.css);
+@import url(../reset.css);
 * {
   font-size: 10px;
   font-family: "NotoSansKR", "JosefinSlab", sans-serif;
