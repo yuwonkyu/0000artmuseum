@@ -1,17 +1,13 @@
-// App.js
+// import { useState } from 'react'
+// import './App.css'
 import React from "react";
-import "./App.css";
-import HeadComponent from "./components/HeadComponent";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      {/* HeadComponent를 App 컴포넌트 안에서 사용 */}
-      <HeadComponent />
-
       <header>
         <a href="/">
-          <img src="/img/Rogo.svg" alt="로고" />
+          <img src="/img/Logo.svg" alt="로고" />
         </a>
       </header>
 
@@ -21,6 +17,6 @@ const App = () => {
       </main>
     </div>
   );
-};
+}
 
 export default App;
